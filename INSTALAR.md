@@ -91,7 +91,7 @@ Você precisa da versão **6.0.0-be.785, "Unity IL2CPP", Windows x64** (é a que
    É o mesmo formato dos mods de estádio (uma pasta por mod dentro de `plugins`). **Não** solte a DLL direto em `plugins/`, porque os arquivos `.tsv` precisam ficar ao lado dela.
 3. Abra o jogo normalmente.
 
-### 2.3 Conferir que funcionou
+### 2.3 Conferir que funcionou (opcional, pode abrir o jogo e ver as mudancas la tbm)
 
 Abra `BepInEx/LogOutput.log` (ele é recriado a cada abertura do jogo) e procure por `TraducaoLog`. Você deve ver algo assim:
 
