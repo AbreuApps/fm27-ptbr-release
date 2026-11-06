@@ -1,42 +1,54 @@
 # Tradução PT-BR — Football Manager 27 🇧🇷
 
-Tradução do **FM27** para **Português (Brasil)**, como idioma separado do Português (Portugal) oficial.
+Idioma **Português (Brasil)** para o FM27, separado do Português (Portugal) oficial.
+Tutorial válido da **v1.2.3** em diante. Baixe tudo em **[Releases](../../releases/latest)**.
 
-## 📥 Qual arquivo baixar
+> Faça backup do save antes (`Documentos/Sports Interactive/Football Manager 27/games`).
 
-Na página de **[Releases](../../releases/latest)**:
+## 1. Escolha o download
 
 | Você... | Baixe |
 |---|---|
-| **Nunca usou mods** (mais fácil) | `TraducaoLog-completo-<versão>.zip` — traz tudo |
-| **Já usa mods (BepInEx)** | `portuguese_br.ltc` + `TraducaoLog-<versão>.zip` |
-| Só quer a tradução, sem plugin | `portuguese_br.ltc` |
+| Nunca usou mods | `TraducaoLog-completo-<versão>.zip` |
+| Já usa mods (BepInEx) | `portuguese_br.ltc` + `TraducaoLog-<versão>.zip` |
+| Só quer a tradução | `portuguese_br.ltc` |
 
-## 🛠️ Instalar (2 passos)
+## 2. Instale (2 cópias)
 
-**Pacote completo:** descompacte e copie:
+**Pacote completo** — descompacte e copie:
 
-1. o conteúdo da pasta **`1_COPIAR_PARA_PASTA_DO_JOGO`** → pasta do jogo, ao lado do `fm.exe`
-2. o arquivo **`portuguese_br.ltc`** da pasta 2 → pasta `languages`
+1. o **conteúdo** de `1_COPIAR_PARA_PASTA_DO_JOGO` → pasta do jogo (ao lado do `fm.exe`)
+2. `portuguese_br.ltc` de `2_COPIAR_PARA_languages` → pasta `languages`
 
-Depois abra o jogo (a 1ª abertura demora uns minutos) e vá em **Preferências → Idioma → Português (Brasil)**.
+**Já tem BepInEx** — copie:
 
-**Já tem BepInEx:** copie a pasta `TraducaoLog` do zip para `BepInEx/plugins/` e o `.ltc` para `languages`.
+1. a pasta `TraducaoLog` → `BepInEx/plugins/`
+2. `portuguese_br.ltc` → pasta `languages`
 
-📖 Caminhos por sistema, Linux/Proton e problemas comuns: **[INSTALAR.md](INSTALAR.md)**
+## 3. Pastas
 
-## 🔌 O que o plugin faz
+| | Windows | Linux (Steam/Proton) |
+|---|---|---|
+| **Pasta do jogo** | `C:\Program Files (x86)\Steam\steamapps\common\Football Manager 27\` | `~/.local/share/Steam/steamapps/common/Football Manager 27/` |
+| **`languages`** | `Documentos\Sports Interactive\Football Manager 27\languages\` | `~/.local/share/Steam/steamapps/compatdata/4530370/pfx/drive_c/users/steamuser/Documents/Sports Interactive/Football Manager 27/languages/` |
 
-Traduz textos que vêm do banco do jogo e não do arquivo de idioma: lesões, países, estaduais, prêmios da semana, veículos de imprensa e artigos ("do Cruzeiro", "na Portuguesa"). **Não grava log nem salva texto**, só troca o que aparece na tela. É opcional: sem ele a tradução funciona, com alguns textos em inglês.
+Dica: Steam → botão direito no jogo → *Gerenciar* → *Explorar arquivos locais*.
 
-## ❓ FAQ
+## 4. Só no Linux
 
-**Não aparece na lista de idiomas?** Confira o caminho da pasta `languages` e reinicie o jogo por completo.
+Steam → FM27 → Propriedades → *Opções de inicialização*:
 
-**É seguro?** O `.ltc` é só um arquivo de tradução. O BepInEx muda a forma como o jogo abre, então faça backup do save antes.
+```
+WINEDLLOVERRIDES="version=n,b" %command%
+```
 
-**Ainda vejo algo em inglês.** Instale o plugin. Se sobrar, abra uma [Issue](../../issues) com um print.
+## 5. Abra o jogo
+
+A 1ª abertura com o pacote completo demora vários minutos: não feche.
+Depois: **Preferências → Idioma → Português (Brasil)**.
 
 ---
 
-Feito pela comunidade. Reporte erros nas [Issues](../../issues).
+⚠️ Já usa mods? **Não** use o pacote completo: ele sobrescreve o seu BepInEx.
+Remover, problemas comuns e BepInEx manual: **[INSTALAR.md](INSTALAR.md)**.
+Erros de tradução: [Issues](../../issues).
