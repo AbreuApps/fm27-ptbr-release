@@ -3,6 +3,20 @@
 Idioma **Português (Brasil)** para o FM27, separado do Português (Portugal) oficial.
 Tutorial válido da **v1.2.3** em diante. Baixe tudo em **[Releases](../../releases/latest)**.
 
+<!-- ULTIMA-VERSAO:INICIO (gerado por scripts/release.py, não edite à mão) -->
+[![Última versão](https://img.shields.io/github/v/release/AbreuApps/fm27-ptbr-release?label=vers%C3%A3o&color=2ea44f)](https://github.com/AbreuApps/fm27-ptbr-release/releases/latest) [![Downloads](https://img.shields.io/github/downloads/AbreuApps/fm27-ptbr-release/total?label=downloads&color=blue)](https://github.com/AbreuApps/fm27-ptbr-release/releases) [![Issues](https://img.shields.io/github/issues/AbreuApps/fm27-ptbr-release?label=issues)](https://github.com/AbreuApps/fm27-ptbr-release/issues)
+
+### 🆕 Última versão: [v1.2.4](https://github.com/AbreuApps/fm27-ptbr-release/releases/tag/v1.2.4) (06/11/2026)
+
+- 🎯 **Botões táticos:** os valores de marcação, pressão e desarme foram encurtados e não truncam mais.
+- 🧩 **"de do":** "o fato de do Cruzeiro" e variantes corrigidos em 15 lotes de texto, e o plugin ganhou novas regras de contração.
+- 🏟️ **Resumos de partida:** agora "no estádio Mineirão"; acabou o "no estádio Estádio X".
+- 🧹 **Português de Portugal:** 26 frases (72 variantes) de resumos de mercado, lesão, sorteio de copa, finanças do clube e felicidade do elenco ainda saíam em PT-PT; foram reescritas em português do Brasil.
+- ✏️ **"Justa Causa Desportiva":** virou **"Justa Causa Esportiva"**.
+
+🔌 O plugin é essencial: ele completa artigos e contrações (do, da, no, na) na tela. Sem BepInEx? O pacote completo já vem com pasta pronta.
+<!-- ULTIMA-VERSAO:FIM -->
+
 > Faça backup do save antes (`Documentos/Sports Interactive/Football Manager 27/games`).
 
 ## 1. Escolha o download
