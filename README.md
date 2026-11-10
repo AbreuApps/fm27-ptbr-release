@@ -6,13 +6,11 @@ Tutorial válido da **v1.2.3** em diante. Baixe tudo em **[Releases](../../relea
 <!-- ULTIMA-VERSAO:INICIO (gerado por scripts/release.py, não edite à mão) -->
 [![Última versão](https://img.shields.io/github/v/release/AbreuApps/fm27-ptbr-release?label=vers%C3%A3o&color=2ea44f)](https://github.com/AbreuApps/fm27-ptbr-release/releases/latest) [![Downloads](https://img.shields.io/github/downloads/AbreuApps/fm27-ptbr-release/total?label=downloads&color=blue)](https://github.com/AbreuApps/fm27-ptbr-release/releases) [![Issues](https://img.shields.io/github/issues/AbreuApps/fm27-ptbr-release?label=issues)](https://github.com/AbreuApps/fm27-ptbr-release/issues)
 
-### 🆕 Última versão: [v1.2.5](https://github.com/AbreuApps/fm27-ptbr-release/releases/tag/v1.2.5) (07/11/2026)
+### 🆕 Última versão: [v1.2.6](https://github.com/AbreuApps/fm27-ptbr-release/releases/tag/v1.2.6) (10/11/2026)
 
-- 🧠 **Compreensão tática:** os rótulos das áreas táticas agora são os mesmos em todas as telas: Compreensão tática, Construção, Criação de oportunidades, Tática com/sem posse, Linha de pressão e Desenvolvimento com/sem posse (Issue #40).
-- 👔 **Treinador x Técnico:** o cargo de Coach agora é **Treinador**, e Técnico fica só para o Manager (Issue #39).
-- 🩹 **Lesões em português:** "calf strain", "hip injury" e "food poisoning" (intoxicação alimentar) não aparecem mais em inglês no meio das notícias (Issues #36 e #37).
-- 🏆 **Prêmios e copas:** "Melhor Goleiro da Copa do Brasil", Gol do Ano, Time do Ano, Artilheiro, Quartas de Final, Semifinal, Liga das Nações, Mundial de Clubes e Paulistão Série A1 em português (Issues #34 e #38).
-- 🧩 **Artigos e detalhes:** "O ponta direita" e "o centroavante" voltaram a ter artigo, "5ºº" virou "5º", "rebaixado para a Série B" e "na partida de vitória convincente" nas notícias (Issues #31, #33, #35 e #41).
+- 🧩 **Compostos e siglas de função:** "Group" deixa de virar pedaço de frase nos grupos e fases, e "Camisa 10" sai como C10 (Issues #31, #34, #36, #37, #38, #41, #42 e #43).
+- ⬇️ **Rebaixado da Série A:** "foi rebaixado Série A e..." ganhou o "da" no meio da frase (Issue #35).
+- 🧠 **Compreensão tática no relatório:** a coluna do relatório de eficácia tática agora também diz Compreensão tática, igual ao resto do jogo.
 
 🔌 O plugin é essencial: ele completa artigos e contrações (do, da, no, na) na tela. Sem BepInEx? O pacote completo já vem com pasta pronta.
 <!-- ULTIMA-VERSAO:FIM -->
