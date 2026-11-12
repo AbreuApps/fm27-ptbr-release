@@ -36,8 +36,12 @@ Tutorial válido da **v1.2.3** em diante. Baixe tudo em **[Releases](../../relea
 
 **Já tem BepInEx** — copie:
 
-1. a pasta `TraducaoLog` → `BepInEx/plugins/`
+1. a pasta `TaoMods` do zip → `BepInEx/plugins/` (fica `BepInEx/plugins/TaoMods/TraducaoLog`)
 2. `portuguese_br.ltc` → pasta `languages`
+
+Tem a pasta antiga `BepInEx/plugins/TraducaoLog` (fora de `TaoMods`)? Apague: só pode haver uma cópia do plugin.
+
+🏟️ **Usa os [Estádios do Brasil 3D](https://github.com/AbreuApps/fm27-estadios-release)?** Eles já trazem o plugin da tradução na mesma pasta `TaoMods`. Para a tradução mais nova, troque só `TaoMods/TraducaoLog` e o `portuguese_br.ltc` (sem o pacote completo).
 
 ## 3. Pastas
 
@@ -63,6 +67,6 @@ Depois: **Preferências → Idioma → Português (Brasil)**.
 
 ---
 
-⚠️ Já usa mods? **Não** use o pacote completo: ele sobrescreve o seu BepInEx.
+⚠️ Já usa mods (inclusive os Estádios)? **Não** use o pacote completo: ele sobrescreve o seu BepInEx.
 Remover, problemas comuns e BepInEx manual: **[INSTALAR.md](INSTALAR.md)**.
 Erros de tradução: [Issues](../../issues).
