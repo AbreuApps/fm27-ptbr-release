@@ -6,11 +6,13 @@ Tutorial válido da **v1.2.3** em diante. Baixe tudo em **[Releases](../../relea
 <!-- ULTIMA-VERSAO:INICIO (gerado por scripts/release.py, não edite à mão) -->
 [![Última versão](https://img.shields.io/github/v/release/AbreuApps/fm27-ptbr-release?label=vers%C3%A3o&color=2ea44f)](https://github.com/AbreuApps/fm27-ptbr-release/releases/latest) [![Downloads](https://img.shields.io/github/downloads/AbreuApps/fm27-ptbr-release/total?label=downloads&color=blue)](https://github.com/AbreuApps/fm27-ptbr-release/releases) [![Issues](https://img.shields.io/github/issues/AbreuApps/fm27-ptbr-release?label=issues)](https://github.com/AbreuApps/fm27-ptbr-release/issues)
 
-### 🆕 Última versão: [v1.2.6](https://github.com/AbreuApps/fm27-ptbr-release/releases/tag/v1.2.6) (10/11/2026)
+### 🆕 Última versão: [v1.2.7](https://github.com/AbreuApps/fm27-ptbr-release/releases/tag/v1.2.7) (11/11/2026)
 
-- 🧩 **Compostos e siglas de função:** "Group" deixa de virar pedaço de frase nos grupos e fases, e "Camisa 10" sai como C10 (Issues #31, #34, #36, #37, #38, #41, #42 e #43).
-- ⬇️ **Rebaixado da Série A:** "foi rebaixado Série A e..." ganhou o "da" no meio da frase (Issue #35).
-- 🧠 **Compreensão tática no relatório:** a coluna do relatório de eficácia tática agora também diz Compreensão tática, igual ao resto do jogo.
+- 🛠️ **Issues da comunidade:** lesões em inglês ("double hernia", "Blisters"), "jogadores German", jogos antecipados que apareciam como adiados (agora "Remarcado"), "5th Rnd" do sorteio, texto confuso e sem artigo nas notícias, Mezzala sem tradução na tática e o nome da Série E cortado na barra (Issues #32, #45, #46, #47, #48, #49, #50, #51 e #52).
+- ✏️ **Mais de mil textos revisados:** "flanco" virou "ala", "mister" virou "professor", "suplente" virou "reserva", pronomes no jeito brasileiro ("pode lhe oferecer") e rótulos com a mesma grafia em todas as telas.
+- 📰 **Artigos nas notícias:** frases que perdiam o artigo antes da descrição do clube, do técnico ou do jogador ("levou clube ... à glória") agora saem completas.
+- 🗣️ **Menu de interação:** "Avisar" virou "Criticar", como os itens de dentro do menu.
+- 🔌 **Plugin mais rápido:** o plugin (essencial, já vem no pacote completo com BepInEx) traduz as notícias bem mais rápido e não trava mais em textos longos.
 
 🔌 O plugin é essencial: ele completa artigos e contrações (do, da, no, na) na tela. Sem BepInEx? O pacote completo já vem com pasta pronta.
 <!-- ULTIMA-VERSAO:FIM -->
